@@ -131,6 +131,9 @@ namespace MapActivity
             catch (Exception ex)
             {
                 getLastLocation(googleMap);
+
+
+                //dhuijdsfs//
             }
         }
     }
