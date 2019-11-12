@@ -1,7 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-</LinearLayout>
+    android:layout_height="match_parent"
+    android:gravity="top"
+    >
+<EditText
+        android:id="@+id/edname"
+        android:hint="Input your user name "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+   />
+    <EditText
+        android:id="@+id/edphone"
+        android:hint="Input your phone number "
+        android:layout_width="404.0dp"
+        android:layout_height="81.5dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="0.0dp"
+        android:layout_marginBottom="0.0dp" />
