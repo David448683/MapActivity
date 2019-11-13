@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace MapActivity
     {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "LoginActivity")]
     public class LoginActivity : Activity
         {
         Button btnLogin;
@@ -22,7 +22,7 @@ namespace MapActivity
             {
             base.OnCreate(savedInstanceState);
 
-            SetContentView(Resource.Layout.activity_main);
+            SetContentView(Resource.Layout.Login);
 
             btnLogin = FindViewById<Button>(Resource.Id.btnLogin);
             etAccName = FindViewById<EditText>(Resource.Id.etAccName);
@@ -37,6 +37,7 @@ namespace MapActivity
 
             // Create your application here
             }
+        
         }
     }
 //LoginActivity//

@@ -4,8 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+<TextView
+    android:id="@+id/lblHello"   
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:gravity="center"
+    android:text="Welcome"/>
+
  <TextView
         android:id="@+id/lblWelcome"
+        android:layout_below="@id/lblHello"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
