@@ -133,9 +133,7 @@ namespace MapActivity
                 getLastLocation(googleMap);
 
 
-                //dhuijdsfs//
-
-                //fdggdfgsdh//
+                
             }
         }
     }
