@@ -28,4 +28,4 @@ namespace MapActivity
         }
     }
 
-//HomeActivity//
+//HomeActivity// //update 2.0//
