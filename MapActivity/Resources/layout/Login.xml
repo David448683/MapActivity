@@ -44,4 +44,5 @@
         android:layout_toRightOf="@id/btnLogin"
         android:layout_marginRight="-50.0dp" />
 
+//LoginPage//
 </LinearLayout>
