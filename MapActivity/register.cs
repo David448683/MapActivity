@@ -15,11 +15,21 @@ namespace MapActivity
     [Activity(Label = "register")]
     public class register : Activity
     {
+      
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
-            // Create your application here
+        }
+
+        private T FindViewById<T>(object edfirstname)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void SetContentView(object register)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -16,53 +16,52 @@
 <EditText
     android:id="@+id/edlastname"
     android:hint"put your last name"
-    android:layout_below="@+id/edfirstname"
+    android:layout_below="@id/edfirstname"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>
 
 <EditText
     android:id="@+id/edphone"
-    android:layout_below="@+id/edlastname"
+    android:layout_below="@id/edlastname"
     android:hint"put your phone number"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>
 <EditText
     android:id="@+id/edaddress"
     android:hint"put your address"
-    android:layout_below="@+id/edphone"
+    android:layout_below="@id/edphone"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>
 <EditText
     android:id="@+id/edcountry"
     android:hint"put your country"
-    android:layout_below="@+id/edaddress"
+    android:layout_below="@id/edaddress"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>
 
 <EditText
     android:id="@+id/edpassword"
     android:hint"put your password"
-    android:layout_below="@+id/edcountry"
+    android:layout_below="@id/edcountry"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>
 
  <Button
         android:id="@+id/btnsignup"
         android:gravity="right"
-        android:layout_below="@+id/edpassword"
+        android:layout_below="@id/edpassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign up"
         android:layout_margin="10dp"
-        android:layout_alignParentRight="true"
-    />
+        android:layout_alignParentRight="true"/>
    <Button
        android:id="@+id/btnback"
-       android:layout_below="@+id/edpassword"
+       android:layout_below="@id/edpassword"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:text="Back"
-       android:layout_margin="10dp"
+       android:layout_margin="10dp"/>
     
 
 
