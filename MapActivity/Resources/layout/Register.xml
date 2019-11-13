@@ -7,49 +7,49 @@
 
     <EditText
         android:id="@+id/etFirstName"
-        android:hint"Put Your First Name Here:"
+        android:hint="Put Your First Name Here:"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <EditText
         android:id="@+id/etLastName"
-        android:hint"Put Your Last Name Here:"
-        android:layout_below="@+id/etFirstName"
+        android:hint="Put Your Last Name Here:"
+        android:layout_below="@id/etFirstName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <EditText
         android:id="@+id/etPhone"
-        android:layout_below="@+id/etLastName"
-        android:hint"Put Your Phone Number Here:"
+        android:layout_below="@id/etLastName"
+        android:hint="Put Your Phone Number Here:"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <EditText
         android:id="@+id/etAddress"
-        android:hint"Put Your Address Here:"
-        android:layout_below="@+id/etPhone"
+        android:hint="Put Your Address Here:"
+        android:layout_below="@id/etPhone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <EditText
         android:id="@+id/etCountry"
-        android:hint"Put Your Country Name Here:"
-        android:layout_below="@+id/etAddress"
+        android:hint="Put Your Country Name Here:"
+        android:layout_below="@id/etAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <EditText
         android:id="@+id/etPassword"
-        android:hint"Put Your Password Here:"
-        android:layout_below="@+id/etCountry"
+        android:hint="Put Your Password Here:"
+        android:layout_below="@id/etCountry"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <Button
         android:id="@+id/btnConfirm"
         android:gravity="center"
-        android:layout_below="@+id/etPassword"
+        android:layout_below="@id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Confirm"
