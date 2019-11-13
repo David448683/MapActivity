@@ -10,7 +10,7 @@ using System;
 
 namespace MapActivity
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "MainActivity")]
     public class MainActivity : AppCompatActivity, IOnMapReadyCallback
     {
         protected override void OnCreate(Bundle savedInstanceState)
