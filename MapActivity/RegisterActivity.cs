@@ -15,30 +15,28 @@ namespace MapActivity
     [Activity(Label = "RegisterActivity")]
     public class RegisterActivity : Activity
         {
-        EditText etFirstName;
-        EditText etLastName;
-        EditText etPhone;
-        EditText etAddress;
-        EditText etCountry;
-        EditText etPassword;
-        Button btnSignup;
+        Button btnSignUp;
         Button btnBack;
+      
         protected override void OnCreate(Bundle savedInstanceState)
             {
             base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.Register);
 
-            etFirstName = FindViewById<EditText>(Resource.Id.etFirstName);
-            etLastName = FindViewById<EditText>(Resource.Id.etLastName);
-            etPhone = FindViewById<EditText>(Resource.Id.etPhone);
-            etAddress = FindViewById<EditText>(Resource.Id.etAddress);
-            etCountry = FindViewById<EditText>(Resource.Id.etCountry);
-            etPassword = FindViewById<EditText>(Resource.Id.etPassword);
-            btnSignup = FindViewById<Button>(Resource.Id.btnSignUp);
-            btnBack = FindViewById<Button>(Resource.Id.btnBack);
+            btnSignUp.Click += (Sender, e) =>
+            {
+                Intent LoginActivityIntent = new Intent(this, typeof(LoginActivity));
+                StartActivity(LoginActivityIntent);
+            };
+
+            btnBack.Click += (Sender, e) =>
+            {
+                Intent LoginActivityIntent = new Intent(this, typeof(LoginActivity));
+                StartActivity(LoginActivityIntent);
+            };
 
             // Create your application here
             }
-        }
+            }
     }

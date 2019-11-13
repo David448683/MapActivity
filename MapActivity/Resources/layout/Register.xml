@@ -47,7 +47,7 @@
         android:layout_height="wrap_content"/>
 
     <Button
-        android:id="@+id/btnSignup"
+        android:id="@+id/btnSignUp"
         android:gravity="center"
         android:layout_below="@+id/etPassword"
         android:layout_width="match_parent"
@@ -58,8 +58,7 @@
 
     <Button
         android:id="@+id/btnBack"
-        android:layout_below="@+id/etPassword"
-        android:layout_ToRightOf="@+id/btnSignup"
+        android:layout_below="@+id/btnSignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Back"

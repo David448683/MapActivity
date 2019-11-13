@@ -16,6 +16,7 @@ namespace MapActivity
     public class LoginActivity : Activity
         {
         Button btnLogin;
+        Button btnSignUp;
         EditText etAccName;
         EditText etPassword;
 
@@ -29,6 +30,8 @@ namespace MapActivity
             btnLogin = FindViewById<Button>(Resource.Id.btnLogin);
             etAccName = FindViewById<EditText>(Resource.Id.etAccName);
             etPassword = FindViewById<EditText>(Resource.Id.etPassword);
+            btnSignUp = FindViewById<Button>(Resource.Id.btnSignUp);
+
             btnLogin.Click += (Sender, e) =>
             {
                 Intent HomeActivityIntent = new Intent(this, typeof(HomeActivity));
@@ -37,9 +40,15 @@ namespace MapActivity
                 StartActivity(HomeActivityIntent);
             };
 
+            btnSignUp.Click += (Sender, e) =>
+            {
+                Intent RegisterActivityIntent = new Intent(this, typeof(RegisterActivity));
+                StartActivity(RegisterActivityIntent);
+            };
+
             // Create your application here
             }
-        
+
         }
     }
 //LoginActivity//
