@@ -6,50 +6,50 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/edFirstName"
+        android:id="@+id/etFirstName"
         android:hint"Put Your First Name Here:"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <EditText
-        android:id="@+id/edLastName"
+        android:id="@+id/etLastName"
         android:hint"Put Your Last Name Here:"
-        android:layout_below="@+id/edFirstName"
+        android:layout_below="@+id/etFirstName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <EditText
-        android:id="@+id/edPhone"
-        android:layout_below="@+id/edLastName"
+        android:id="@+id/etPhone"
+        android:layout_below="@+id/etLastName"
         android:hint"Put Your Phone Number Here:"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <EditText
-        android:id="@+id/edAddress"
+        android:id="@+id/etAddress"
         android:hint"Put Your Address Here:"
-        android:layout_below="@+id/edPhone"
+        android:layout_below="@+id/etPhone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <EditText
-        android:id="@+id/edCountry"
+        android:id="@+id/etCountry"
         android:hint"Put Your Country Name Here:"
-        android:layout_below="@+id/edAddress"
+        android:layout_below="@+id/etAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <EditText
-        android:id="@+id/edPassword"
+        android:id="@+id/etPassword"
         android:hint"Put Your Password Here:"
-        android:layout_below="@+id/edCountry"
+        android:layout_below="@+id/etCountry"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <Button
         android:id="@+id/btnSignup"
         android:gravity="center"
-        android:layout_below="@+id/edPassword"
+        android:layout_below="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sign up"
@@ -58,7 +58,7 @@
 
     <Button
         android:id="@+id/btnBack"
-        android:layout_below="@+id/edPassword"
+        android:layout_below="@+id/etPassword"
         android:layout_ToRightOf="@+id/btnSignup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

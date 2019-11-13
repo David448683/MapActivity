@@ -12,12 +12,14 @@ using Android.Widget;
 
 namespace MapActivity
     {
-    [Activity(Label = "LoginActivity")]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class LoginActivity : Activity
         {
         Button btnLogin;
         EditText etAccName;
         EditText etPassword;
+
+
         protected override void OnCreate(Bundle savedInstanceState)
             {
             base.OnCreate(savedInstanceState);
