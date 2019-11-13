@@ -47,21 +47,14 @@
         android:layout_height="wrap_content"/>
 
     <Button
-        android:id="@+id/btnSignUp"
+        android:id="@+id/btnConfirm"
         android:gravity="center"
         android:layout_below="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sign up"
+        android:text="Confirm"
         android:layout_margin="20dp"
         android:layout_alignParentRight="true"/>
 
-    <Button
-        android:id="@+id/btnBack"
-        android:layout_below="@+id/btnSignUp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Back"
-        android:layout_margin="10dp"/>
-
+    
 </LinearLayout>
