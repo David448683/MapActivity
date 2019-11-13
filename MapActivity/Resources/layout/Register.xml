@@ -1,0 +1,66 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+    android:id="@+id/edFirstName"
+    android:hint"Put Your First Name Here:"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+    <EditText
+    android:id="@+id/edLastName"
+    android:hint"Put Your Last Name Here:"
+    android:layout_below="@+id/edFirstName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+    <EditText
+    android:id="@+id/edPhone"
+    android:layout_below="@+id/edLastName"
+    android:hint"Put Your Phone Number Here:"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+    <EditText
+    android:id="@+id/edAddress"
+    android:hint"Put Your Address Here:"
+    android:layout_below="@+id/edPhone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+    <EditText
+    android:id="@+id/edCountry"
+    android:hint"Put Your Country Name Here:"
+    android:layout_below="@+id/edAddress"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+    <EditText
+    android:id="@+id/edPassword"
+    android:hint"Put Your Password Here:"
+    android:layout_below="@+id/edCountry"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:gravity="center"
+        android:layout_below="@+id/edPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:layout_margin="20dp"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+       android:id="@+id/btnBack"
+       android:layout_below="@+id/edPassword"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Back"
+       android:layout_margin="10dp"/>
+
+</LinearLayout>
