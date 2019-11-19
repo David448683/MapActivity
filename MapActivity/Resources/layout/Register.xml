@@ -9,13 +9,13 @@
 
 <EditText
     android:id="@+id/edfirstname"
-    android:hint"put your first name"
+    android:hint="put your first name"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>
 
 <EditText
     android:id="@+id/edlastname"
-    android:hint"put your last name"
+    android:hint="put your last name"
     android:layout_below="@id/edfirstname"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>
@@ -23,25 +23,25 @@
 <EditText
     android:id="@+id/edphone"
     android:layout_below="@id/edlastname"
-    android:hint"put your phone number"
+    android:hint="put your phone number"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>
 <EditText
     android:id="@+id/edaddress"
-    android:hint"put your address"
+    android:hint="put your address"
     android:layout_below="@id/edphone"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>
 <EditText
     android:id="@+id/edcountry"
-    android:hint"put your country"
+    android:hint="put your country"
     android:layout_below="@id/edaddress"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>
 
 <EditText
     android:id="@+id/edpassword"
-    android:hint"put your password"
+    android:hint="put your password"
     android:layout_below="@id/edcountry"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>

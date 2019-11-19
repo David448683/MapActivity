@@ -13,7 +13,7 @@ using Android.Widget;
 namespace MapActivity
 {
     [Activity(Label = "login")]
-    public class login : Activity
+    public class LoginActivity : Activity
     {
         Button btnsignup;
         

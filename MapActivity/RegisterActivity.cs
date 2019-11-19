@@ -12,24 +12,20 @@ using Android.Widget;
 
 namespace MapActivity
 {
-    [Activity(Label = "register")]
-    public class register : Activity
+    [Activity(Label = "HomeActivity")]
+    public class HomeActivity : Activity
     {
-      
+        TextView username;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            SetContentView(Resource.Layout.Home);
 
-        }
-
-        private T FindViewById<T>(object edfirstname)
-        {
-            throw new NotImplementedException();
-        }
-
-        private void SetContentView(object register)
-        {
-            throw new NotImplementedException();
+            // Create your application here
+            username = FindViewById<TextView>(Resource.Id.lblWelcome);
+            username.Text = Intent.GetStringExtra("AccName");
         }
     }
 }
+
+//HomeActivity// //update 2.0//
