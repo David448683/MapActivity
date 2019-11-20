@@ -1,18 +1,20 @@
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-<TextView
-    android:id="@+id/lblHello"   
-    android:textAppearance="?android:attr/textAppearanceLarge"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:minWidth="25px"
-    android:minHeight="25px"
-    android:gravity="center"
-    android:text="Welcome"/>
+    <TextView
+        android:id="@+id/lblHello"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:gravity="center"
+        android:text="Welcome"/>
 
     <TextView
         android:id="@+id/lblWelcome"
@@ -23,30 +25,57 @@
         android:textSize="30dp"/>
 
     <Button
-        android:id="@+id/btnMessage"
-        android:text="Message"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnMap"
+        android:text="Map"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
         android:padding="20dp"
-        android:clickable="true"/>
+        android:clickable="true"
+        android:layout_margin="5dp"
+        android:layout_marginRight="1.5dp"
+        android:layout_marginLeft="0.0dp" />
+
+    <Button
+        android:id="@+id/btnList"
+        android:text="List"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:clickable="true"
+        android:layout_margin="5dp"
+        android:layout_marginRight="1.5dp"
+        android:layout_marginLeft="0.0dp" />
 
     <Button
         android:id="@+id/btnBluetooth"
         android:text="Bluetooth"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
         android:padding="20dp"
-        android:clickable="true"/>
+        android:clickable="true"
+        android:layout_margin="5dp"
+        android:layout_marginRight="1.5dp"
+        android:layout_marginLeft="0.0dp" />
 
     <Button
-        android:id="@+id/btnMap"
-        android:text="Map"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnMessage"
+        android:text="Message"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
         android:padding="20dp"
-        android:clickable="true"/>
+        android:clickable="true"
+        android:layout_margin="5dp"
+        android:layout_marginRight="1.5dp"
+        android:layout_marginLeft="0.0dp" />
     
+    
+    
+    
+    
+    
+
+
+
+
+
 </LinearLayout>
